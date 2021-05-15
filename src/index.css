@@ -1,0 +1,80 @@
+* body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: aliceblue;
+}
+.heading_style {
+  padding: 30px 0;
+  text-align: center;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: rgb(136, 10, 10);
+  background-color: aliceblue;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+.cards {
+  width: 100%;
+  height: auto;
+}
+.card {
+  margin: 6%;
+  transition: all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  background-color: lightblue;
+  width: 21.25%;
+  border-radius: 12px;
+  box-shadow: 0px 13px 10px -7px black;
+  float: left;
+}
+.card:hover {
+  box-shadow: 0px 30px 18px -8px black;
+  transform: scale(1.05, 1.05);
+}
+.card_img {
+  width: 100%;
+  height: 235px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.card_info {
+  background-color: wheat;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 16px 24px 24px 24px;
+  background-color: lightblue;
+}
+.caed_category {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: grey;
+  background-color: wheat;
+}
+.card_title {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+  background-color: wheat;
+  text-transform: capitalize;
+}
+button {
+  padding: 5px 8px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: grey;
+  background-color: white;
+  outline: none;
+  cursor: pointer;
+}
+button:hover {
+  color: orange;
+}
